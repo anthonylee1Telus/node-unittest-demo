@@ -1,0 +1,19 @@
+{
+    "all": true,
+    "include": [
+        "*/**/*.js",
+        "!node_modules/**/*.js",
+        "!coverage/**/*.js",
+        "!plato/**/*.js",
+        "!gss-issues/**/*.js",
+        "!required_tools/**/*.js"
+    ],
+    "exclude": [
+        "test/**.js"
+    ],
+    "check-coverage": true,
+    "lines": 70,
+    "branches": 70,
+    "functions": 70,
+    "statements": 70
+}
