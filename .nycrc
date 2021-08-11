@@ -9,7 +9,7 @@
         "!required_tools/**/*.js"
     ],
     "exclude": [
-        "test/**.js"
+        "test/**/*.js"
     ],
     "check-coverage": true,
     "lines": 70,
