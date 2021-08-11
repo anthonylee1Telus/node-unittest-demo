@@ -28,6 +28,7 @@ describe('When testing index', () => {
         nextSpy.resetHistory();
     })
 
+    // Data driven tests sample
     const tests = 
     [
         { resultCode: 'OK', userInfoCheck: 'Y'},
