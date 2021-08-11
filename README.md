@@ -10,7 +10,19 @@ http://localhost:3000/user_1_2/sessions/2
 
 sample response:
 ```json
-{"userinfo":{"API":"Axolotl","Description":"Collection of axolotl pictures and facts","Auth":"","HTTPS":true,"Cors":"unknown","Link":"https://theaxolotlapi.netlify.app/","Category":"Animals","userId":"2"},"userInfoCheck":"Y"}
+{
+   "userinfo":{
+      "API":"Axolotl",
+      "Description":"Collection of axolotl pictures and facts",
+      "Auth":"",
+      "HTTPS":true,
+      "Cors":"unknown",
+      "Link":"https://theaxolotlapi.netlify.app/",
+      "Category":"Animals",
+      "userId":"2"
+   },
+   "userInfoCheck":"Y"
+}
 ```
 
 ## Run unit tests
