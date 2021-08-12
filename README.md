@@ -27,7 +27,7 @@ sample response:
 
 ## Run unit tests
 * Run tests only - `npm run test`
-* Run tests and coverage - `npm run coverage`
+* Run tests and coverage - `npm run coverage`, which will generate coverage reports in /coverage/lcov-report/index.html
 * To customize the coverage percentage to which fail the build, modify the `.nycrc` file:
 ```
     "lines": 70,
