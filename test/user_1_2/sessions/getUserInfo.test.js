@@ -30,6 +30,15 @@ describe('When testing getUserInfo', () => {
         it('should call appropriate avs method with correct parameters, and set response properly when AVS give resultCode == OK', async () => {
             // Arrange
             mockRequest.params = { id: 2 };
+            /**
+             * mockRequest = { 
+             *  method: 'GET',
+             *  url: 'abc/123',
+             *  params: {
+             *   id: 467
+             *  }
+             * }
+             */
             const mockAVSResults = { resultCode: 'OK', resultObj: { id: 8844, name: 'test name' }};
             callAVSB2BVersionedStub.resolves(mockAVSResults);
 

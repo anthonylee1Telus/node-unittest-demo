@@ -22,7 +22,7 @@
             "args": [
                 "--timeout", "5000", 
                 "--inspect-brk", "${workspaceFolder}/test/**/*.js", 
-                "-g", "should throw error if AVS call returns error"
+                "-g", "should not modify response if AVS call gives resultCode == KO"
             ],
             "cwd": "${workspaceFolder}",
             "internalConsoleOptions": "openOnSessionStart",
